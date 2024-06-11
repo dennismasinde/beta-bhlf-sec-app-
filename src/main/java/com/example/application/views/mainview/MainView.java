@@ -10,9 +10,9 @@ import com.vaadin.flow.theme.lumo.LumoUtility.Margin;
 
 @PageTitle("MainView")
 @Route(value = "empty")
-public class MainViewView extends VerticalLayout {
+public class MainView extends VerticalLayout {
 
-    public MainViewView() {
+    public MainView() {
         setSpacing(false);
 
         Image img = new Image("images/empty-plant.png", "placeholder plant");
